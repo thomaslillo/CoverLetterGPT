@@ -1,6 +1,6 @@
-const express = require('express');
-const fetch = require('node-fetch');
-const dotenv = require('dotenv');
+import express from 'express';
+import fetch from 'node-fetch';
+import dotenv from 'dotenv';
 
 dotenv.config();
 const app = express();
@@ -10,6 +10,7 @@ const openaiApiKey = process.env.OPENAI_API_KEY;
 app.use(express.json());
 app.use(express.static('public'));
 
+// the endpoint to call from html
 app.post('/generate-cover-letter', async (req, res) => {
     try {
         const { jobDescription, resume } = req.body;

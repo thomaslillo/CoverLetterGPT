@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cover Letter GPT</title>
+    <script src="https://unpkg.com/htmx.org@1.7.1/dist/htmx.js"></script>
+</head>
+<body>
+    
+    <h1>Cover Letter Generator - Using AI !</h1>
+
+    <form id="coverLetterForm">
+        <div>
+            <label for="jobDescription">Job Description:</label>
+            <textarea id="jobDescription" name="jobDescription" rows="4" cols="50"></textarea>
+        </div>
+        <div>
+            <label for="resume">Resume:</label>
+            <textarea id="resume" name="resume" rows="4" cols="50"></textarea>
+        </div>
+        <button id="generateCoverLetter" hx-post="/generate-cover-letter">Generate Cover Letter</button>
+    </form>
+
+    <h2>Your Cover Letter:<br></h2>
+    <div hx-target="#coverLetterOutput"></div>
+
+    <script>
+        // Handle form submission using HTMX
+        const form = document.getElementById('coverLetterForm');
+        form.addEventListener('htmx:configRequest', (event) => {
+            const jobDescription = document.getElementById('jobDescription').value;
+            const resume = document.getElementById('resume').value;
+            event.detail.parameters.jobDescription = jobDescription;
+            event.detail.parameters.resume = resume;
+        });
+        form.addEventListener('htmx:afterSwap', () => {
+            form.reset();
+        });
+    </script>
+</body>
+</html>
