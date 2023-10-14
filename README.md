@@ -6,9 +6,9 @@ Have GPT build you a cover letter so you don't need to! This website and node se
 
 The project contains two main parts, a server and a client page that makes requests to the server.
 
-**Node API**
+**Espress.js REST API**
 
-Node server that takes advantage of prompt engineering to build cover letters from a job description and resume.
+Express.js REST API running on a node.js server that takes advantage of prompt engineering to build cover letters from a job description and resume.
 
 **Webpage with HTMX**
 
