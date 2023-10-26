@@ -6,7 +6,7 @@ Have GPT build you a cover letter so you don't need to!
 
 This project is an API that uses the power of OpenAIs GPT endpoints to make your job application process easier.
 
-![Node]([https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg](https://miro.medium.com/v2/resize:fit:1400/1*f7ztMaMM0etsFHpEfkdiwA.png))
+![https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg](https://miro.medium.com/v2/resize:fit:1400/1*f7ztMaMM0etsFHpEfkdiwA.png)
 
 ## Project Contains
 
