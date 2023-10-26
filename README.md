@@ -8,7 +8,7 @@ This project is an API that uses the power of OpenAIs GPT endpoints to make your
 
 ![https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg](https://miro.medium.com/v2/resize:fit:1400/1*f7ztMaMM0etsFHpEfkdiwA.png)
 
-## Project Contains
+## Project Technologies
 
 The project contains two main parts, a server and a client page that makes requests to the server.
 
