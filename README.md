@@ -2,6 +2,8 @@
 
 Have GPT build you a cover letter so you don't need to! This website and node server use the power of OpenAIs APIs to make your job application process easier.
 
+![Node](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg) ![OpenAI](https://www.cloud-for-all.com/hubfs/blog/images_compress/what-is-open-ai-01.png)
+
 ## Project Contains
 
 The project contains two main parts, a server and a client page that makes requests to the server.
