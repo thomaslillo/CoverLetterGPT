@@ -1,8 +1,12 @@
-# Cover Letter GPT
+# CoverLetterGPT API
 
-Have GPT build you a cover letter so you don't need to! This website and node server use the power of OpenAIs APIs to make your job application process easier.
+Want to add a cover letter generation service to your apply bot app? 
 
-![Node](https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg) ![OpenAI](https://www.cloud-for-all.com/hubfs/blog/images_compress/what-is-open-ai-01.png)
+Have GPT build you a cover letter so you don't need to! 
+
+This project is an API that uses the power of OpenAIs GPT endpoints to make your job application process easier.
+
+![Node]([https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg](https://miro.medium.com/v2/resize:fit:1400/1*f7ztMaMM0etsFHpEfkdiwA.png))
 
 ## Project Contains
 
