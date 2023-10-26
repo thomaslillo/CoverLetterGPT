@@ -20,6 +20,8 @@ Express.js REST API running on a node.js server that takes advantage of prompt e
 
 A simple website that uses HTMX to make requests to the node server.
 
+![htmx explained](https://miro.medium.com/v2/resize:fit:1400/0*9PdJ8wIlLqxI7GwK.png)
+
 ## How to Run
 
 **Build the image**
