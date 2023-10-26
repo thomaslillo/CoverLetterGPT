@@ -1,4 +1,4 @@
-# CoverLetterGPT API
+# CoverLetterGPT API + HTMX Interface
 
 Want to add a cover letter generation service to your apply bot app? 
 
