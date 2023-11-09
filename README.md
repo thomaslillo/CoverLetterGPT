@@ -10,8 +10,6 @@ This project is an API that uses the power of OpenAIs GPT endpoints to make your
 
 ## Project Technologies
 
-The project contains two main parts, a server and a client page that makes requests to the server.
-
 **Espress.js REST API**
 
 Express.js REST API running on a node.js server that takes advantage of prompt engineering to build cover letters from a job description and resume.
