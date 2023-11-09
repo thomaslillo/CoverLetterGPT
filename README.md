@@ -1,4 +1,4 @@
-# CoverLetterGPT API + HTMX Interface
+# CoverLetterGPT API
 
 Want to add a cover letter generation service to your apply bot app? 
 
@@ -15,12 +15,6 @@ The project contains two main parts, a server and a client page that makes reque
 **Espress.js REST API**
 
 Express.js REST API running on a node.js server that takes advantage of prompt engineering to build cover letters from a job description and resume.
-
-**Webpage with HTMX**
-
-A simple website that uses HTMX to make requests to the node server.
-
-![htmx explained](https://miro.medium.com/v2/resize:fit:1400/0*9PdJ8wIlLqxI7GwK.png)
 
 ## How to Run
 
